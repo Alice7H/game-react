@@ -6,22 +6,21 @@ type Props = {
   x: number
   y: number
   backgroundImage: string
-  velocity: number,
   name: string,
 }
 
-export const Character = ({name, velocity, side, x, y, backgroundImage}: Props ) => {
+export const Character = ({name, side, x, y, backgroundImage}: Props ) => {
   const size = 30;
-  const positionX = x * velocity;
-  const positionY = y * velocity;
+  const positionX = x * size;
+  const positionY = y * size;
 
   return(
     <Style.Container
-      backgroundImage={backgroundImage}
-      size={size}
       left={positionX}
       top={positionY}
-      side={side ?? 0}
+      size={size}
+      backgroundImage={backgroundImage}
+      side={side}
     >
       <Style.Ballon>{name}</Style.Ballon>
     </Style.Container>

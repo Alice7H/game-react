@@ -6,5 +6,4 @@ export type Character= {
   y:  number,
   backgroundImage: string,
   side: Sides,
-  velocity: number,
 }

@@ -8,9 +8,8 @@ export const useCharacter = (name : string) => {
   const initialCharacter = {
     id: 0,
     name: name,
-    velocity: 30,
-    x: 5,
-    y: 6,
+    x: 1,
+    y: 1,
     backgroundImage: './assets/char.png',
     side: Sides.down,
   }
