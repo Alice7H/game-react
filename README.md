@@ -1,8 +1,10 @@
-# Jogo RPG em React
+# Jogo em React
+
+![Capa](public/assets/banner.png)
 
 Projeto criado por Bonieky Lacerda com adaptações
 
-Projeto inicial baseado nos assets do GitHub no [link](https://github.com/suporteb7web/rpg-react-onlyassets).
+Projeto inicial baseado nos assets do GitHub no link [suporteb7web](https://github.com/suporteb7web/rpg-react-onlyassets).
 
 O projeto contém:
 
